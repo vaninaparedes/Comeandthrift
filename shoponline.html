@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Cierro Css-->
+    <!--Toasty-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Shop Online</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+
+      img{
+        height: 100%;
+      
+      }
+
+      td{
+        height: 100px;
+      }
+
+     h2{
+       text-align: center;
+       color:#FF577F;
+     }
+
+     .precio{
+       display:block;
+       font-size:20px;
+     }
+
+     #carrito{
+        width: 30%; 
+        background-color: white; 
+        height: 100vh;
+     }
+      
+    #listaProductos{
+
+      width: 70%;
+    }
+
+    #contenedorPadre{
+
+      display:flex;
+    }
+    </style>
+
+  </head>
+<body>
+    <!--Empieza nav-->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"> <img class="menu" src="img/logo.jpg" alt="Logo" id="imagen"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="shoponline.html">Shop Online</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sucursales.html">Sucursales</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!--Cierra nav-->
+    
+
+    
+    <div id="contenedorPadre">      
+      <div class="container" id="listaProductos">
+       
+        <h2  class="titulo">Productos</h2>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 90%;">
+                <img src="img/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pantalon cuero</h5>
+                  <p class="card-text">Pantalon de cuero tiro alto estampado. Talle S</p>
+                  <span class="precio">$3000</span>  
+                  <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                </div>
+              </div>
+        </div>
+            <div class="col">
+                <div class="card" style="width: 90%;">
+                    <img src="img/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Campera Nesquick</h5>
+                      <p class="card-text">Campera nesquick. Talle L</p>
+                      <span class="precio">$3500</span>  
+                      <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 90%;">
+                    <img src="img/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Botas fun</h5>
+                      <p class="card-text">Botas de taco. Material: cuero. Talle: 38</p>
+                      <span class="precio">$2500</span>  
+                      <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>      
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 90%;">
+                <img src="img/4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Camisa Fruits</h5>
+                  <p class="card-text">Camisa liviana estampada. Talle: S</p>
+                  <span class="precio">$1000</span>                  
+
+                  <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                </div>
+              </div>
+        </div>
+            <div class="col">
+                <div class="card" style="width: 90%;">
+                    <img src="img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pant estampas</h5>
+                      <p class="card-text">Pantalon estampado wide leg. Talle: M</p>
+                      <span class="precio">$3000</span>                      
+                      <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 90%;">
+                    <img src="img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cartera black and white</h5>
+                      <p class="card-text">Cartera pequeña con estampa blanco y negro.</p>
+                      <span class="precio">$2000</span>  
+                      <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 90%;">
+                      <img src="img/7.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Bag Prada</h5>
+                        <p class="card-text">Cartera vede dupe Parda</p>
+                        <span class="precio">$2500</span>  
+                        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                      </div>
+                    </div>
+              </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/8.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Campera blocks</h5>
+                            <p class="card-text">Campera bloques de color. Talle L</p>
+                            <span class="precio">$4000</span>  
+                            <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/9.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Campera motañas</h5>
+                            <p class="card-text">Campera diseño hecho a mano. Talle: XL</p>
+                            <span class="precio">$4500</span>  
+                            <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                          </div>
+                      </div>
+                  </div>      
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 90%;">
+                      <img src="img/10.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Campera color</h5>
+                        <p class="card-text">Campera con diseño de colores. Talle: XL</p>
+                        <span class="precio">$3500</span>  
+                        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                      </div>
+                    </div>
+              </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/11.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Camisa Rex</h5>
+                            <p class="card-text">Camisa celeste con detalles en blanco. Talle: S</p>
+                            <span class="precio">$1000</span>  
+                            <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/12.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Pantalon Pepe</h5>
+                            <p class="card-text">Pantalon sastrero marron. Talle: M </p>
+                            <span class="precio">$2500</span>  
+                            <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                          </div>
+                      </div>
+                  </div>      
+              </div>
+              <br>
+              <div class="row">
+                <div class="col">
+                  <div class="card" style="width: 90%;">
+                      <img src="img/13.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Tapado sketch</h5>
+                        <p class="card-text">Tapado con dibujos. Talle S</p>
+                        <span class="precio">$5000</span>  
+                        <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                      </div>
+                    </div>
+              </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/14.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Campera Rode</h5>
+                            <p class="card-text">Campera con detalles hechos a mano. Talle XXL</p>
+                            <span class="precio">$4000</span>  
+                            <a href="#" class="btn btn-primary botonCompra boton">Agregar al carrito</a>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col">
+                      <div class="card" style="width: 90%;">
+                          <img src="img/15.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">Campera CartoonNetwork</h5>
+                            <p class="card-text">Blazer intervenida con dibujos de CartoonNetwork. Talle: M</p>
+                            <span class="precio">$3500</span>  
+                            <a href="#" class="btn btn-primary botonCompra">Agregar al carrito</a>
+                          </div>
+                      </div>
+                  </div>      
+              </div>
+              <br>
+            
+        
+            
+            
+
+
+
+        </div>
+      </div>
+      <div class="container" id="carrito">
+        <h2>Carrito</h2>
+        <table class="table table-dark">
+          <thead>
+            
+          </thead>
+          <tbody id="tbody">
+            <tr>             
+              <td>Producto</td>
+              <td>Cantidad</td>
+              <td>Precio</td>
+              <td></td>
+            </tr>
+          
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+    
+    <!--Footer-->
+    <footer>
+        <nav class="navbar navbar-expand-lg bg-rose">
+            <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">
+                        <img src="https://icongr.am/fontawesome/facebook.svg?size=30&color=fdf7f7" alt="Seguinos en Facebook" class="img-footer">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="https://icongr.am/fontawesome/instagram.svg?size=30&color=fdf7f7" alt="Seguinos en Instagram" class="img-footer">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="https://icongr.am/fontawesome/twitter.svg?size=30&color=fdf7f7" alt="Seguinos en Twitter" class="img-footer">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="https://icongr.am/fontawesome/youtube-play.svg?size=30&color=fdf7f7" alt="Suscribite a nuestro canal" class="img-footer">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <img src="https://icongr.am/fontawesome/whatsapp.svg?size=30&color=fdf7f7" alt="Contactanos" class="img-footer">
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </footer>
+    <!--Cierra footer-->
+
+    
+   
+    <!--Toasty-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
